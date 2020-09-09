@@ -1,0 +1,17 @@
+body{
+  background-color: azure;
+}
+div{
+  background-color: lightskyblue;
+}
+h1{
+  color: black;
+  font-family: 'Shrikhand', cursive;
+}
+h2{
+  font-family: 'Arima Madurai', cursive;
+  font-style: italic;
+}
+p{
+  color: purple;
+}
