@@ -1,0 +1,53 @@
+nav{
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+}
+nav ul,li,a{
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+  list-style-type: none;
+  color: black;
+}
+nav a:hover{
+  color: orange;
+}
+nav a:visited{
+  color: red;
+}
+ nav li{
+   display: inline-flex;
+   padding: 20px;
+ }
+
+ h1, h2, h3{
+   font-family: 'Special Elite', cursive;
+ }
+ main h1{
+   text-align: center;
+   color: orange;
+   font-size: 72px;
+ }
+ main img{
+   max-height: 90vh;
+   padding: 20px;
+ }
+ #welcome{
+   display: inline-flex;
+
+ }
+
+ #text{
+   display: flex;
+  flex-direction: column;
+   margin: 50px;
+   padding:20px;
+   justify-content: center;
+ }
+ #text a{
+   text-align: center;
+   color: orange;
+   background-color: black;
+   padding: 10px;
+   align-self: center;
+ }
