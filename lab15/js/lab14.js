@@ -4,22 +4,22 @@ Created: October 20th
 License: Public Domain*/
 
 // Create a constructor for vehicles called Vehicle, including make, model, year, color, and extras.
-
-function Vehicle(owner, time, year, make, model, color, interior){
-  this.owner = owner;
-  this.time = time;
-  this.year = year;
-  this.make = make;
-  this.model = model;
-  this.color = color;
-  this.interior = interior;
-
-  // Add a method info() to your constructor that neatly returns a string with all that information
-  this.carinfo = function() {
-  return this.owner + "'s " + this.time + " car is a, " + this.year + this.make + this.model + ". It is " + this.color + " and in " + this.condition + " conditon, with " + this.interior + " interior.";
+class Vehicle{
+  constructor(owner, time, year, make, model, color, interior){
+    this.owner = owner;
+    this.time = time;
+    this.year = year;
+    this.make = make;
+    this.model = model;
+    this.color = color;
+    this.interior = interior;
   }
-}
+  // Add a method info() to your constructor that neatly returns a string with all that information
+      info() {
+      return this.owner + "'s " + this.time + " car is a, " + this.year + this.make + this.model + ". It is " + this.color + " and in " + this.condition + " conditon, with " + this.interior + " interior.";
+      }
 
+}
 // Instantiate objects with your constructor for every vehicle you've ever owned:
 
 var tavsFirstCar = new Vehicle("Tavia", "old", 2006, " Dodge ", "Durango ", "red", "leather");
