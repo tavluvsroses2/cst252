@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Lab 15:Object-Oriented Design</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/lab14.js" defer></script>
+</head>
+<body>
+
+  <div id="content">
+              <h1>Lab 15: Object-Oriented Design</h1>
+              <h2>Challenge</h2>
+
+              <h3>Task 1: Recreate Lab 14 as JavaScript classes</p>
+              <p><a href = "js/lab14.js.html">JavaScript Code</a></p>
+
+
+              <h3>Task 2: Design an OOP Design for Hangman</h3>
+                  <p>1:Understand the Problem</p>
+
+                  <ul>
+                    <li>Set up the game incl board, players and body parts</li>
+                    <li>Game loop</li>
+                    <li>Draw Board</li>
+                    <li>Game loop</li>
+                    <li>Get new move from player one</li>
+                    <li>Validate move</li>
+                    <li>Check for win condition</li>
+                    <li>Swith</li>
+                  <ul>
+
+                  <p>2:Pseudocode the High Level Approach</p>
+
+                  <ul>
+                    <li>Set up the hangman board with a randomized word set up player scores.</li>
+                      <li class="indent">Draw the board and wrong lettter box</li>
+                      <li class="indent">Draw blank spaces</li>
+                    <li>Have the first player guess a letter.</li>
+                    <li>Check to see if the letter is right.</li>
+                    <li>If letter is correct then print the letter.</li>
+                        <li class="indent"> Player one guesses another letter.</li>
+                        <li class="indent">Check to see if the letter is right.</li>
+                        <li class="indent">Repeat: If letter is correct then print the letter.</li>
+                    <li>Else if letter is incorrect print a body part of the hangman and print letter in worng letters box. Player two guesses a letter.</li>
+                    <li> Continuously loop through blank letter spaces after each turn</li>
+                        <li class="indent">If all blank spaces are filled then prompt winning screen.</li>
+                        <li class="indent">If spaces are not filled then next player goes.</li>
+                    <li> Continuously loop through hangman after each turn</li>
+                        <li class="indent">If full man is drawn filled then prompt losing screen.</li>
+                    </ul>
+
+                  <p>3:Assign Actions to Objects</p>
+
+                  <ul>
+                    <li>Set up the hangman board with a randomized word[Hangman]</li>
+                      <li class="indent">Draw the board and wrong lettter box[Hangman Board]</li>
+                      <li class="indent">Draw blank spaces[Hangman Spaces]</li>
+                      <li class="indent">Set up player scores.[Player]</li>
+                    <li>Have the first player guess a letter.[Player]</li>
+                    <li>Check to see if the letter is right.</li>
+                    <li>If letter is correct then print the letter.[Hangman Spaces]</li>
+                        <li class="indent"> Player one guesses another letter.[Player]</li>
+                        <li class="indent">Check to see if the letter is right.</li>
+                        <li class="indent">Repeat: If letter is correct then print the letter.[Hangman Spaces]</li>
+                    <li>Else if letter is incorrect print a body part of the hangman and print letter in worng letters box.[Hangman Board] Player two guesses a letter.[Player] </li>
+                    <li> Continuously loop through blank letter spaces after each turn[Hangman Spaces]</li>
+                        <li class="indent">If all blank spaces are filled then prompt winning screen.[Hangman]</li>
+                        <li class="indent">If spaces are not filled then next player goes.[Player]</li>
+                    <li> Continuously loop through hangman after each turn[Hangman Board]</li>
+                        <li class="indent">If full man is drawn filled then prompt losing screen.[Hangman]</li>
+                    </ul>
+
+                  <p>4:Make Javascript-ish Pseudocode</p>
+
+                  <pre>
+                      <code>
+                        // Controls the game play
+                        class Hangman
+                         // initialize
+                          // set up the board
+                          // set up the players
+                          // assign the starting player
+                         // play
+                          //ask player to input letter guesses
+                            //check_correct_letter
+                            //print letter in blank space ELSE IF print letter in wrong answer box and print body part
+                                // loop infinitely
+                                  // loop through hangman board check if filled
+                                    // if filled Game is Over
+                                  // loop through blank spaces check if filled
+                                    // if filled Game is Won
+                                  // break the loop IF the game is over or IF game is won
+                         // switch players start play sequence with player two
+
+                         // Game is Over
+                            //Prompt losing screen.
+                        //Game is won
+                         //Prompt wining screen.
+                      </code>
+                  </pre>
+
+
+              <h2>Problems</h2>
+                <p>Not many problems just doubting if we were wording thing correctly an figuring out all the micro-steps to the game.</p>
+              <h2>Results</h2>
+
+              </div>
+              <h3>Output</h3>
+              <div id="output"></div>
+          </div>
+
+</body>
+</html>

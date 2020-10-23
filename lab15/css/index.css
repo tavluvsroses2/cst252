@@ -1,0 +1,46 @@
+body{
+  background-color: white;
+;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1{
+  font-weight: bold;
+  color:#39FF14
+}
+h2{
+  text-decoration: underline;
+}
+h3,ol,ul,p,h2,pre{
+  color: black;
+}
+.indent{
+  padding-left: 20px;
+}
+.doubleindent{
+  padding-left: 40px;
+}
+#output{
+  border: solid 2px red;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+img{
+  max-width: 60vh;
+}
+ul{
+  list-style-type: none;
+}
+.indent{
+  padding-left: 30px;
+}
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
