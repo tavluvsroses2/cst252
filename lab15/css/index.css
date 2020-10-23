@@ -44,3 +44,6 @@ pre code {
   display: block;
   padding: 20px;
 }
+a{
+  text-decoration: underline;
+}
