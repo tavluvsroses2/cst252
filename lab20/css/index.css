@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+  background-image: url("lab11/img/stars.gif");
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1{
+  font-weight: bold;
+  color:#39FF14
+}
+h2{
+  text-decoration: none;
+}
+h3,ol,ul,p,h2,pre{
+  color: black;
+}
+.indent{
+  padding-left: 20px;
+}
+.doubleindent{
+  padding-left: 40px;
+}
+#results{
+  border: solid 2px red;
+  padding: 10px;
+}
+#jsbutton{
+  background-color: #39FF14;
+  border: solid 1px black;
+  border-radius: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#output{
+  border: solid red 5px;
+}
