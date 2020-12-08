@@ -1,5 +1,5 @@
 /*Author: Tavia Eckhart, Sean Brown, Kevin Martelli, Sebastian Tamiano
-Special thanks to Wes's Lecture Powerpoint, https://codepen.io/P1N2O/pen/pyBNzX
+Special thanks to Wes's Lecture Powerpoint, In person help from Wes and // Ref: https://stackoverflow.com/questions/26057572/string-to-unique-hash-in-javascript-jquery
 Created: October 2, 2020
 License: Public Domain*/
 
