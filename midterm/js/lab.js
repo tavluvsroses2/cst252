@@ -5,30 +5,30 @@ License: Public Domain*/
 
 
 // we define answers
-    var answers = ["Hell, yeah"
-                  "Fuck, yeah"
-                  "Oh sure, you betcha"
-                  "Totes"
-                  "Oh totally"
-                  "Absolutely"
-                  "Fo sho"
-                  "Yeah, probably"
-                  "Oh completely"
-                  "I'm not sure, but I think so"
-                  "Hell if I know"
-                  "Yeah, no, not sure really"
-                  "Who da fug knows, man?"
-                  "Seriously, who knows?"
-                  "That's random."
-                  "Uh, yeah, no"
-                  "Aw hell nah"
-                  "Fuck, no"
-                  "I'm gonna have to call bullshit on that"
-                  "Not bloody likely"
-                  "Yeah, if wishes were fishes we'd all ride"
-                  "In a pig's eye"
-                  "Volume is notoriously hard to estimate"
-                  "Even a broken link is right twice a day"
+    var answers = ["Hell, yeah",
+                  "Fuck, yeah",
+                  "Oh sure, you betcha",
+                  "Totes",
+                  "Oh totally",
+                  "Absolutely",
+                  "Fo sho",
+                  "Yeah, probably",
+                  "Oh completely",
+                  "I'm not sure, but I think so",
+                  "Hell if I know",
+                  "Yeah, no, not sure really",
+                  "Who da fug knows, man?",
+                  "Seriously, who knows?",
+                  "That's random.",
+                  "Uh, yeah, no",
+                  "Aw hell nah",
+                  "Fuck, no",
+                  "I'm gonna have to call bullshit on that",
+                  "Not bloody likely",
+                  "Yeah, if wishes were fishes we'd all ride",
+                  "In a pig's eye",
+                  "Volume is notoriously hard to estimate",
+                  "Even a broken link is right twice a day",
                   "I don't know, but time for a cigar and whiskey"];
 
 // When the page loads it initiates the function that calls each element by ID
