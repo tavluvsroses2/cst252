@@ -5,26 +5,31 @@ License: Public Domain*/
 
 
 // we define answers
-    var answers = ["Fuck Yeah!",
-                   "If I could marry that I would.",
-                   "Fuck Yeah man! Definitely.",
-                   "Fuck Yeah dude!",
-                   "You betcha!",
-                   "As I appears on Google, yes",
-                   "Ummmm I think so. Lets try and solve it.",
-                   "I think ... Yes.",
-                   "Yes",
-                   "Signs point to yes",
-                   "Don't count on it",
-                   "Fuck no.",
-                   "W3Schools says no.",
-                   "Outlook not so good",
-                   "Very doubtful",
-                   "That's not so hot, ask me again.",
-                   "Ask me after you've checked the console.",
-                   "I can't give away my secrets just yet.",
-                   "Cannot predict now",
-                   "Concentrate and check the console."];
+    var answers = ["Hell, yeah"
+                  "Fuck, yeah"
+                  "Oh sure, you betcha"
+                  "Totes"
+                  "Oh totally"
+                  "Absolutely"
+                  "Fo sho"
+                  "Yeah, probably"
+                  "Oh completely"
+                  "I'm not sure, but I think so"
+                  "Hell if I know"
+                  "Yeah, no, not sure really"
+                  "Who da fug knows, man?"
+                  "Seriously, who knows?"
+                  "That's random."
+                  "Uh, yeah, no"
+                  "Aw hell nah"
+                  "Fuck, no"
+                  "I'm gonna have to call bullshit on that"
+                  "Not bloody likely"
+                  "Yeah, if wishes were fishes we'd all ride"
+                  "In a pig's eye"
+                  "Volume is notoriously hard to estimate"
+                  "Even a broken link is right twice a day"
+                  "I don't know, but time for a cigar and whiskey"];
 
 // When the page loads it initiates the function that calls each element by ID
 
